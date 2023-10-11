@@ -59,7 +59,7 @@ def database_embeddings(data_path, chunk_size, chunk_overlap, save_local):
     document = loader.load()
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size, chunk_overlap=chunk_overlap
-    )  # Splitting into chunks for model compatibility.
+    )
     texts = splitter.split_documents(document)
     # Alternative approach would be too use transformers library with auto tokenizer from a pretrained model (same model as below can be used)
     # Generating embeddings
