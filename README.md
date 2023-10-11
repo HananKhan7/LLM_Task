@@ -8,7 +8,8 @@ This repository contains a powerful Question Answering (QA) system built using t
 
 ## Implementation
 The project is available in both a python script and a jupyter notebook file.
-The project consists of the following main tasks.
+
+It consists of the following main tasks.
 ### Data preprocessing
 - The provided article is saved into a .txt format in 'raw_data' folder which is then cleaned up by undergoing the following processes:
     - Lowercasing
@@ -20,12 +21,11 @@ The project consists of the following main tasks.
 Word embeddings are generated for the preprocessed data using one of the hugging face's most popular sentence transformers **all-mpnet-base-v2** the embeddings are stored in a local database using FAISS.
 
 ### LLM LLAMA 2
-One of the variants of LLAMA 2 named as **llama-2-7b-chat.ggmlv3.q8_0** is used for building a question answer system oriented towards local data.
+One of the variants of LLAMA 2 named as **llama-2-7b-chat.ggmlv3.q8_0] is used for building a question answer system oriented towards local data.
 Two other variants of LLAMA 2 were also tested named **llama-2-7b-chat.ggmlv3.q3_K_M** and **llama-2-7b-chat.ggmlv3.q6_K**. But the above mentioned model was selected based on its performance.
 
 #### Important note!
-Due to the large size of models, I was not able to upload them on Git. However the folder "Models" consists of a text file "models_info.txt" which consists of a link to access/download the above mentioned models.
-This link is also available [here](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
+Due to the large size of models, I was not able to upload them on Git. Due to which, the folder "Models" is empty. However these models can be accessed/downloaded through [here](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main). Make sure to place the model file into the "Models" folder (In GGML format).
 
 ### Prompting LLM model
 Finally the LLM model was prompted with user queries/questions. The output of the model consisting of users question, model's generated answer as well as the source document is printed as well as stored in a .txt file named as "output.txt" in "model_results" folder.
