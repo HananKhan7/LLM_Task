@@ -37,6 +37,8 @@ Finally the LLM model was prompted with user queries/questions. The output of th
 
 [LLAMA 2 guide](https://huggingface.co/blog/stackllama#stackllama-a-hands-on-guide-to-train-llama-with-rlhf)
 
+[LLAMA 2 models](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main)
+
 [C Transformers](https://python.langchain.com/docs/integrations/llms/ctransformers)
 
 [Sentence transformers](https://huggingface.co/sentence-transformers)
