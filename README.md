@@ -7,6 +7,7 @@ This repository contains a powerful Question Answering (QA) system built using t
 - The required libraries can be found in the requirement.txt file
 
 ## Implementation
+The project is available in both a python script and a jupyter notebook file.
 The project consists of the following main tasks.
 ### Data preprocessing
 - The provided article is saved into a .txt format in 'raw_data' folder which is then cleaned up by undergoing the following processes:
@@ -31,12 +32,21 @@ Finally the LLM model was prompted with user queries/questions. The output of th
 
 ## References
 [LLAMA 2 documentation](https://ai.meta.com/llama/)
+
 [LLAMA 2 hugging face](https://huggingface.co/meta-llama/Llama-2-7b)
+
 [LLAMA 2 guide](https://huggingface.co/blog/stackllama#stackllama-a-hands-on-guide-to-train-llama-with-rlhf)
+
 [C Transformers](https://python.langchain.com/docs/integrations/llms/ctransformers)
+
 [Sentence transformers](https://huggingface.co/sentence-transformers)
+
 [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
+
 [QA using a retreiver](https://python.langchain.com/docs/use_cases/question_answering/how_to/vector_db_qa)
+
 [Langchain](https://www.langchain.com/)
+
 [Langchain Documents](https://python.langchain.com/docs/modules/chains/document/)
-[FAISS semantic search] (https://huggingface.co/learn/nlp-course/chapter5/6?fw=pt)
+
+[FAISS semantic search](https://huggingface.co/learn/nlp-course/chapter5/6?fw=pt)
