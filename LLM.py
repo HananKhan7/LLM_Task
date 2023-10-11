@@ -1,5 +1,5 @@
 # Importing libraries
-import re, os
+import re
 import string
 from nltk.tokenize import word_tokenize
 from langchain.document_loaders import DirectoryLoader, TextLoader
