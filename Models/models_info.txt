@@ -1,0 +1,10 @@
+Due to the large size of LLAMA 2 model variants. I was unable to upload them on GIT.
+However, they can accessed/downloaded from the following link:
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+
+
+Following three model variants were tested:
+
+llama-2-7b-chat.ggmlv3.q3_K_M
+llama-2-7b-chat.ggmlv3.q6_K
+llama-2-7b-chat.ggmlv3.q8_0 (Finaly selected based on its performance)
