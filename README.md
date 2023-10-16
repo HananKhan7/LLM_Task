@@ -1,4 +1,4 @@
-# LLM_Task
+# LLAMA 2 Empowering Question Answering with Efficient Document Retrieval Using FAISS
 
 This repository contains a powerful Question Answering (QA) system built using the Large Language Model, LLAMA 2. The system is designed to extract accurate and relevant answers from a set of provided local documents. It utilizes FAISS for efficient word embeddings, enabling fast and accurate retrieval of information.
 
